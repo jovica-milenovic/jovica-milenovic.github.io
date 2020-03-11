@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{38:function(o,s,c){"use strict";c.r(s);var n=c(0);Object(n.a)(),console.log("i am projects.js")}},[[38,2,1,0]]]);
+//# sourceMappingURL=chunkFilename.projects.bundle.js.map

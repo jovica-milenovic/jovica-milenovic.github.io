@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/entry-points/index/index.js"],"names":["setup","console","log"],"mappings":"yFAAA,kBAGGA,cAIFC,QAAQC,IAAI,mB","file":"chunkFilename.index.bundle.js","sourcesContent":["import { setup } from \"../../js/app\";\r\n\r\n \r\n   setup(); // sets up core site functionality \r\n  \r\n\r\n\r\n console.log(\"i am index.js\");"],"sourceRoot":""}
