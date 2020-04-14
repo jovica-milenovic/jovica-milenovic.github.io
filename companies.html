@@ -1,10 +1,22 @@
-<!doctype html><html lang="en" class="custom-theme"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#26C6DA"><title>companies</title><script>// if ('serviceWorker' in navigator) {
+<!doctype html><html lang="en" class="custom-theme"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#26C6DA"><title>companies</title><script>if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').then(registration => {
+                    console.log('SW registered: ', registration);
+                }).catch(registrationError => {
+                    console.log('SW registration failed: ', registrationError);
+                });
+            });
+        }
+
+        // if ('serviceWorker' in navigator) {
         //     window.addEventListener('load', () => {
         //         navigator.serviceWorker.register('p-cache.js') // register the serviceWorker: p-cache.js /service-worker
         //             .then(reg => console.log('Service Worker: Registered (Pages)'))
         //             .catch(err => console.log("Service Worker: Error:" + err));
         //     });
-        // }</script><link rel="apple-touch-icon" href="75d3a4793b2bd084953b4f61054099e9.png"><link rel="shortcut icon" href="/assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="manifest" href="/assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="legends.github.io"><link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="/assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="legends.github.io"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/assets/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/assets/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-1536x2008.png"><link rel="icon" type="image/png" sizes="228x228" href="/assets/coast-228x228.png"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="/assets/mstile-144x144.png"><meta name="msapplication-config" content="/assets/browserconfig.xml"><link rel="yandex-tableau-widget" href="/assets/yandex-browser-manifest.json"><link href="about~certificates~companies~index~projects~skills.0.css" rel="stylesheet"><link href="companies.8.css" rel="stylesheet"><meta name="theme-color" content="#00ACC1" /><link rel="manifest" href="manifest.webmanifest" /></head><body class="notransition page-load"><script>let sidebarState = localStorage.getItem("sidebar-snapshot") || "";
+        // }</script><link rel="shortcut icon" href="/assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="manifest" href="/assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="legends.github.io"><link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="/assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="legends.github.io"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/assets/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/assets/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/assets/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/assets/apple-touch-startup-image-1536x2008.png"><link rel="icon" type="image/png" sizes="228x228" href="/assets/coast-228x228.png"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="/assets/mstile-144x144.png"><meta name="msapplication-config" content="/assets/browserconfig.xml"><link rel="yandex-tableau-widget" href="/assets/yandex-browser-manifest.json"><link href="about~certificates~companies~index~projects~skills.0.css" rel="stylesheet"><link href="companies.8.css" rel="stylesheet"><meta name="theme-color" content="#00ACC1" /><link rel="manifest" href="/manifest.webmanifest" /></head><body class="notransition page-load"><script>if (window.document.documentMode) {
+            document.body.setAttribute("class", "IE");
+        }</script><!--[if !IE]>--><div class="iexplorer"></div><!--<![endif]--><script>let sidebarState = localStorage.getItem("sidebar-snapshot") || "";
 
         if (window.matchMedia("(max-width: 700px)").matches) {
             sidebarState.indexOf("mobile-nav") === -1 && (sidebarState += (sidebarState === "" ? "mobile-nav" : ",mobile-nav"));
@@ -18,7 +30,7 @@
         else {
             document.querySelector("body").classList.remove("notransition");
         }</script><div class="settings-overlay hide-on-med-and-down"><div id="site-settings" class="transformSettingsHidden"><div class="header"><div>SETTINGS PANEL</div><div id="btnClose"><i class="fas fa-times"></i></div></div><div class="settings-body"><div class="title">Layout settings</div><div class="item"><span class="title">Fixed Header </span><span class="cb"><label><input id="fixedHeader" type="checkbox"> <span></span></label></span></div><div class="item"><span class="title">Fixed Navigation </span><span class="cb"><label><input id="fixedNav" type="checkbox"> <span></span></label></span></div><div class="item"><span class="title">Minified Navigation </span><span class="cb"><label><input id="minifiedNav" type="checkbox"> <span></span></label></span></div><div class="item"><span title="On mobile: Swipe from left edge to the right.
-On desktop: Hover over left edge" class="title">Mobile Navigation </span><span class="cb"><label><input id="mobileNav" type="checkbox"> <span></span></label></span></div><div class="item fullscreen"><span class="title">Toggle Fullscreen </span><span class="cb"><label><input id="toggleFullScreen" type="checkbox"> <span></span></label></span></div><div class="item"></div></div></div></div><div class="main"><header><nav><div class="nav-wrapper"><a id="sidenav-trigger" href="#" data-target="mobile-navbar" class=""><i class="fas fa-lg fa-bars"></i></a><div class="controls"><a class="install-button" href="#"><i class="fas fa-plus"></i></a> <a id="btn-settings" class="hide-on-med-and-down" href="#"><i class="spin fas fa-cog"></i></a></div></div></nav></header><script id="sss">let cl = document.body.classList;
+On desktop: Hover over left edge" class="title">Mobile Navigation </span><span class="cb"><label><input id="mobileNav" type="checkbox"> <span></span></label></span></div><div class="item fullscreen"><span class="title">Toggle Fullscreen </span><span class="cb"><label><input id="toggleFullScreen" type="checkbox"> <span></span></label></span></div><div class="item theme"><span class="title">Dark Theme </span><span class="cb"><label><input id="toggleTheme" type="checkbox"> <span></span></label></span></div><div class="item"></div></div></div></div><div class="main"><header><nav><div class="nav-wrapper"><a id="sidenav-trigger" href="#" data-target="mobile-navbar" class=""><i class="fas fa-lg fa-bars"></i> </a><span class="version">v0.0.1-alpha</span><div class="controls"><a class="install-button" href="#"><i class="fas fa-plus"></i></a> <a id="btn-settings" class="hide-on-med-and-down" href="#"><i class="spin fas fa-cog"></i></a></div></div></nav></header><script id="sss">let cl = document.body.classList;
             let style = "";
             if (cl.contains("nav-hidden")) {
                 // style = cl.contains("mobile-nav") ? (cl.contains("minified-nav") ? "translateX(-50px)" : "translateX(-230px)") : "translateX(-245px)";
@@ -36,38 +48,39 @@ On desktop: Hover over left edge" class="title">Mobile Navigation </span><span c
           <img src="8865ab00cf55f7c883cbe4bfe1002fb7.jpg" class="circle user">
         </div>
         <div class="drop-container">
-          <a id="aJM" title="Contact & Networks" class="btn-flat dropdown-button dropdown-trigger waves-effect waves-light white-text" href="#"
+          <a id="aJM" title="Contact & Networks"
+            class="btn-flat dropdown-button dropdown-trigger waves-effect waves-light white-text" href="#"
             data-target="profile-dropdown">JM<i class="mdi-navigation-arrow-drop-down right"></i></a>
           <ul id="profile-dropdown" class="animated dropdown-content personal">
-            <li><a class="fullname" href="#">Herbert Grönemeyer</a></li>
+            <li><a class="fullname" href="#">Jovica Milenovic</a></li>
             <li><a class="jobtitle" href="#">Senior Developer</a></li>
             <li class="divider"></li>
             <li class="mail"> <a title="E-mail" href="#"> <i class="fas fa-envelope"></i>E-mail</a></li>
-            <li class="linkedin"> <a title="LinkedIn" href="//www.linkedin.com" target="_blank">
+            <li class="linkedin"> <a title="LinkedIn" href="//www.linkedin.com/in/jovica-milenovic/" target="_blank">
                 <i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
-            <li class="xing"> <a title="Xing" href="//www.xing.de" target="_blank">
+            <li class="xing"> <a title="Xing" href="//www.xing.com/profile/Jovica_Milenovic2/cv" target="_blank">
                 <i class="fab fa-xing"></i>Xing
               </a>
             </li>
-            <li class="stackoverflow"> <a href="//www.stackoverflow.com" target="_blank">
+            <li class="stackoverflow"> <a href="//stackoverflow.com/users/2581562/legends" target="_blank">
                 <i class="fab fa-stack-overflow"></i>stackoverflow
               </a></li>
           </ul>
           <div id="personal" class="personal">
             <div class="jobtitle">Senior Developer</div>
-            <div class="fullname">Herbert Grönemeyer</div>
+            <div class="fullname">Jovica Milenovic</div>
             <div class="contact">
               <div class="mail">
                 <a title="E-mail" href="#"> <i class="fas fa-envelope"></i></a>
               </div>
               <div class="linkedin">
-                <a title="LinkedIn" target="_blank" href="//www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                <a title="LinkedIn" target="_blank" href="//www.linkedin.com/in/jovica-milenovic/"><i class="fab fa-linkedin-in"></i></a>
               </div>
               <div class="xing">
-                <a title="Xing" target="_blank" href="//www.xing.de"><i class="fab fa-xing"></i></a>
+                <a title="Xing" target="_blank" href="//www.xing.com/profile/Jovica_Milenovic2/cv"><i class="fab fa-xing"></i></a>
               </div>
               <div title="stackoverflow" class="stackoverflow">
-                <a target="_blank" href="//www.stackoverflow.com"><i class="fab fa-stack-overflow"></i></a>
+                <a target="_blank" href="//stackoverflow.com/users/2581562/legends"><i class="fab fa-stack-overflow"></i></a>
               </div>
             </div>
           </div>
@@ -100,7 +113,8 @@ On desktop: Hover over left edge" class="title">Mobile Navigation </span><span c
     <li><a href="certificates.html" class="page waves-effect waves-blue"><i
           class="material-icons fas fa-certificate"></i><span>Certificates</span></a></li>
     <li><a href="projects.html" class="page waves-effect waves-blue"><i
-          class="material-icons fas fa-project-diagram"></i><span>Projects</span></a></li>
+          class="material-icons fas fa-project-diagram"></i><span>Projects</span></a>
+    </li>
     <li><a href="skills.html" class="page waves-effect waves-blue"><i
           class="material-icons fas fa-drafting-compass"></i><span>Technical skills</span></a></li>
     <li><a href="companies.html" class="page waves-effect waves-blue"><i
@@ -128,15 +142,15 @@ On desktop: Hover over left edge" class="title">Mobile Navigation </span><span c
     <li class="sidenav-footer">
       <div class=" social-icons">
         <div>
-          <a href="//www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="//www.linkedin.com/in/jovica-milenovic/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <div>
-          <a href="//wwwfacebook.com" target="_blank"><i class="fab fa-lg fa-facebook"></i></a>
+          <a href="//www.xing.com/profile/Jovica_Milenovic2/cv" target="_blank"><i class="fab fa-lg fa-xing"></i></a>
         </div>
         <div>
-          <a href="//www.twitter.com" target="_blank"><i class="fab fa-lg fa-twitter"></i></a>
+          <a href="//stackoverflow.com/users/2581562/legends" target="_blank"><i class="fab fa-lg fa-stack-overflow"></i></a>
         </div>
-        <div>
+        <!-- <div>
           <a href="//instagram.com" target="_blank"><i class="fab fa-lg fa-instagram"></i></a>
         </div>
         <div>
@@ -144,7 +158,7 @@ On desktop: Hover over left edge" class="title">Mobile Navigation </span><span c
         </div>
         <div>
           <a href="//www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-        </div>
+        </div> -->
       </div>
     </li>
   </ul>
