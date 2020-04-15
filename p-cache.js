@@ -14,7 +14,12 @@ self.addEventListener('install',  function (e) {
       console.log("CACHING /INDEX.HTML");
       return cache.addAll(
         [
-          '/index.html' // == https://legends.io
+          '/',
+          '/index.html', // == https://legends.io
+          '/projects.html',
+          '/skills.html',
+          '/companies.html',
+          '/certificates.html'
         ]
       );
     })

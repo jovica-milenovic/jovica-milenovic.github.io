@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{38:function(o,s,c){"use strict";c.r(s);var n=c(0);Object(n.a)(),console.log("i am projects.js")}},[[38,2,1,0]]]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{45:function(e,n,o){"use strict";o.r(n);var t=o(0);o(46);Object(t.a)(),document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector.bind(document);document.querySelectorAll.bind(document);setTimeout(()=>{let n=e(".projects").querySelector(".fa-envelope");n.classList.remove("animated","bounceInDown"),n.classList.add("animated","pulse")},3e3)})),console.log("i am projects.js")},46:function(e,n,o){}},[[45,2,1,0]]]);
 //# sourceMappingURL=chunkFilename.projects.bundle.js.map
