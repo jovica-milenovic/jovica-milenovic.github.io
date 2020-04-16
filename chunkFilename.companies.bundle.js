@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{43:function(n,o,c){"use strict";c.r(o);var i=c(0);c(44);Object(i.a)(),console.log("i am in companies.js")},44:function(n,o,c){}},[[43,2,1,0]]]);
-//# sourceMappingURL=chunkFilename.companies.bundle.js.map
