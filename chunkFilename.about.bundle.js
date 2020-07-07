@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{40:function(o,n,s){"use strict";s.r(n);var a=s(0);Object(a.a)(),console.log("i am about.js")}},[[40,2,1,0]]]);
-//# sourceMappingURL=chunkFilename.about.bundle.js.map

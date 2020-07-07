@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{50:function(e,n,o){"use strict";o.r(n);var t=o(0);o(51);Object(t.a)(),document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector.bind(document);document.querySelectorAll.bind(document);setTimeout(()=>{let n=e(".projects").querySelector(".fa-envelope");n.classList.remove("animated","bounceInDown"),n.classList.add("animated","pulse")},3e3)})),console.log("i am projects.js")},51:function(e,n,o){}},[[50,2,1,0]]]);
+//# sourceMappingURL=../maps/projects.js.map
+//# sourceMappingURL=chunkFilename.projects.bundle.js.map

@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{183:function(e,t,n){"use strict";function o(){let e;const t=document.querySelector(".install-button");window.addEventListener("beforeinstallprompt",n=>{console.log("-----------------------   INSTALL PROMPT REGISTRATION --------------------------------------------"),n.preventDefault(),e=n,t.style.display="inline-block",t.addEventListener("click",n=>{t.style.display="none",e.prompt(),e.userChoice.then(t=>{"accepted"===t.outcome?console.log("User accepted the A2HS prompt"):console.log("User dismissed the A2HS prompt"),e=null})})})}n.r(t),n.d(t,"installPwaPrompt",(function(){return o}))}}]);
+//# sourceMappingURL=../maps/17.js.map
+//# sourceMappingURL=chunkFilename.17.bundle.js.map
